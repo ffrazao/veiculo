@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- <parent> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-parent</artifactId> 
+		<version>${spring-boot.version}</version> </parent> -->
+	<groupId>br.gov.df.emater</groupId>
+	<artifactId>api</artifactId>
+	<version>${br-gov-df-emater.version}</version>
+
+	<name>API</name>
+	<url>http://maven.apache.org</url>
+	<packaging>pom</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<downloadSources>true</downloadSources>
+		<downloadJavadocs>true</downloadJavadocs>
+
+		<br-gov-df-emater.version>0.0.1-SNAPSHOT</br-gov-df-emater.version>
+		<cadeiaresponsabilidade.version>0.0.1-SNAPSHOT</cadeiaresponsabilidade.version>
+		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
+		<spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+		<spring-security-test.version>5.1.5.RELEASE</spring-security-test.version>
+		<hikaricp.version>3.3.1</hikaricp.version>
+		<mysql.version>8.0.16</mysql.version>
+		<hibernate-spatial.version>5.4.3.Final</hibernate-spatial.version>
+		<lombok.version>1.18.8</lombok.version>
+		<junit.version>4.12</junit.version>
+	</properties>
+
+	<modules>
+		<module>comum</module>
+		<module>repositorio-principal</module>
+		<module>transporte-dados</module>
+		<module>negocio</module>
+		<module>restful-servidor</module>
+		<module>autorizador-servidor</module>
+	</modules>
+
+</project>

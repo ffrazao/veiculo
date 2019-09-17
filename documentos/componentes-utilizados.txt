@@ -1,0 +1,26 @@
+Gestão de Ambientes (ver https://medium.com/@balramchavan/configure-and-build-angular-application-for-different-environments-7e94a3c0af23)
+* para gerar => na pasta web/src/environments gravar um novo arquivo do ambiente, lembrando que todas 
+as variáveis devem ser preservadas em todos os ambientes. Dentro do arquivo angular.json replicar a 
+configuração
+* para rodar => ng serve --configuration=qa
+* pra buildar => ng build --configuration=qa
+
+Com o objetivo de: Interceptar eventos de chamada externas (rxjs)
+Segundo o site: (https://scotch.io/@vigneshsithirai/angular-6-7-http-client-interceptor-with-error-handling)
+Foi utilizado componentes do: Angular Material, Angular CDK and Angular Animations
+Com o comando => npm install --save @angular/material @angular/cdk @angular/animations
+
+Com o objetivo de: Captar dados de endereços postais através do CEP
+Segundo o site: (https://github.com/brunoc107/ngx-viacep)
+Foi utilizado componentes do: Ngx-Viacep!
+Com o comando => npm install @brunoc/ngx-viacep --save
+
+Código para inserir componentes no elemento body do dom. (ver https://hackernoon.com/angular-pro-tip-how-to-dynamically-create-components-in-body-ba200cc289e6)
+Necessário para fazer aparecer o mirror sobre todos os componentes para evitar que o usuário fique 
+teclando enquanto uma requisição http está em curso.
+Para tal o componente comum/componente/mirror e o servico comum/servico/dom foram criados
+
+Componente para exibir de mensagens tipo toast. (ver https://www.npmjs.com/package/ngx-toastr)
+Instalação no próprio site
+
+
