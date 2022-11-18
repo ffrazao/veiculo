@@ -58,7 +58,7 @@
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.4",
+    "@angular-devkit/build-angular": "^15.0.0",
     "@types/chartist": "0.9.46",
     "@types/jasmine": "^3.4.0",
     "@types/node": "^12.7.5",
